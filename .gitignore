@@ -1,0 +1,59 @@
+# Object file
+*.o
+
+# macOS-related
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# iCloud generated files
+*.icloud
+
+# Ada Library Information
+*.ali
+
+# HTML/CSS related
+
+# Exclude generated files from preprocessors like Sass, Less, etc.
+*.sass-cache
+*.scss-cache
+*.css.map
+
+# Exclude CSS build directory (если используете сборку)
+css/
+
+# Exclude temp files
+*.tmp
+*.swp
+
+# Exclude logs
+*.log
+
+# Exclude build directories (например, если используете сборку или минификацию)
+dist/
+build/
+
+# Exclude npm/node_modules if using Node.js
+node_modules/
