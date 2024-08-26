@@ -540,7 +540,7 @@ input.elem:focus {
     padding: 30px 55px;
     background-color: #D9C0A6;
     display: flex;
-    justify-content: center; /
+    justify-content: center; 
     box-sizing: border-box;
     flex-wrap: wrap;
     align-items: stretch;
@@ -568,4 +568,96 @@ input.elem:focus {
 }
 .social_img{
     display: inline;
+}
+
+/* Медиазапросы для адаптивности под разные экраны */
+
+
+@media  (max-width: 575px) {  /* Стили для мобильных телефонов */
+
+     .container0{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px;
+        align-items:center;
+    }
+    .logo{
+        padding:0;
+    } 
+    
+    /* Head (menu)*/
+    .menu{
+        text-align: center;
+        text-decoration: none;
+        padding-top: 24px;
+        position: relative;
+        font-family: 'Rubik One', sans-serif;
+        color: #F8D0D0;                                                
+        
+    }
+
+    .first_h1{
+
+        font-size: 44px;
+    
+    }
+
+    .first_h3{
+        
+        font-size: 20px;
+       
+    }
+
+    .container2 {
+        padding: 10px 15px;
+        background-color: #FFD2B5;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .container4{
+        padding: 10px 15px;
+    
+    }
+
+    .elements5 {
+        display: flex;              /* Переключаем на Flexbox */
+        flex-direction: column;     /* Вертикальное расположение элементов */
+        align-items: center;        /* Центрирование элементов */
+    }
+
+    .question {
+        width: 100%;                /* Элементы занимают всю ширину контейнера */
+        margin-bottom: 20px;        /* Отступ между элементами */
+    }
+
+    #main_img {
+        order: 4;                   /* Перемещаем изображение в конец */
+        width: 80%;                 /* Уменьшаем ширину изображения для лучшего отображения */
+        margin-top: 20px;           /* Отступ сверху */
+    }
+
+    .elements6 {
+        flex-direction: column;    /* Переводим элементы в столбик */
+        align-items: center;       /* Центрируем элементы */
+        padding: 20px;             /* Уменьшаем внутренние отступы */
+    }
+    
+    .left {
+        flex-basis: 100%;          /* Ширина блока 100% */
+        margin-bottom: 20px;       /* Добавляем отступ снизу */
+    }
+    
+    .myForm {
+        flex-basis: 100%;          /* Ширина блока 100% */
+    }
+    
+    .map_pic img {
+        width: 100%;              /* Ширина изображения 100% от родителя */
+        max-width: 300px;         /* Ограничиваем максимальную ширину */
+        height: auto;             /* Высота автоматически подстраивается */
+        border-radius: 15px;      /* Закругленные углы */
+    }
+
 }
