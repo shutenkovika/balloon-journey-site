@@ -1,0 +1,571 @@
+body{
+    margin: 0;
+}
+
+/*Сброс базовых стилей*/
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #E79ABA;
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    box-sizing: border-box;
+    /*position: absolute;*/
+}
+
+
+.container0{
+    display: flex;
+    padding: 10px 55px;
+    justify-content: space-between;
+
+}
+.logo{
+    padding-right: 20px;
+} 
+
+/* Head (menu)*/
+.menu{
+    text-decoration: none;
+    padding-top: 30px;
+    position: relative;
+    font-family: 'Rubik One', sans-serif;
+    color: #F8D0D0;                                                
+    
+}
+.first_section{
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url("img/main.png");
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+}
+
+.container1{
+    /*padding: 289px 55px;*/
+    display: flex;
+    flex-direction:column;
+    padding: 200px 55px;
+    align-items: center;
+}
+
+.first_h1{
+    padding: 30px 0;
+    font-family: 'Rubik Bubbles', sans-serif;
+    color: #f8d0d0;
+    font-size: 64px;
+    text-align: center;
+
+}
+
+.first_h3{
+    padding-top: 10px;
+    color:#eadddd;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:24px;
+    font-family:Rubik Glitch;
+}
+
+/* Кнопка "забронировать" 2-й блок */
+.f_button{
+    padding-top: 50px;
+
+   
+
+
+}
+.one {
+    text-shadow: 1px 1px 0 #ffffff; /* */
+    border-style: none;
+    cursor: pointer;
+    width: 186px;
+    height: 46px;
+    background-color: #f8d0d0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Rubik, sans-serif; 
+    text-align: center;
+    vertical-align: middle;
+    color: #452331;
+}
+
+.one:active { 
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+/* Стили ссылки */
+#a2_1 {
+    text-decoration: none; /* Убирает подчеркивание */
+    color: #452331; /* Цвет ссылки по умолчанию */
+    transition: color 0.3s ease; /* Плавное изменение цвета */
+}
+
+/* Стили для посещенных ссылки */
+#a2_1:visited {
+    color: #452331; /* Цвет посещенной ссылки */
+}
+
+/* Стили для ссылки при наведении */
+#a2_1:hover {
+    color: #555555; /* Цвет при наведении */
+}
+
+/* Стили для ссылки при нажатии */
+#a2_1:active {
+    color: hsl(0, 0%, 20%); /* Цвет при нажатии */
+}
+
+/* Second section "Why we?" */
+
+
+
+.second_section {
+    box-sizing: border-box;
+    margin: 0;
+    background-position: center center;
+    width: auto;
+}
+
+.container2 {
+    padding: 30px 105px;
+    background-color: #FFD2B5;
+
+}
+
+.header_h1 {
+    padding: 30px 0;
+    text-align: center; 
+    color: #683F51;
+    font-size: 24px; 
+    font-family: Rubik Mono One; 
+    font-weight: 400; 
+}
+
+.elements2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+
+}
+
+.elements2 > div {
+    margin: 0 40px; /* Убирает слишком маленькое расстояние между элементами */
+    padding-bottom: 50px;
+}
+.h2_2{
+    color: #660F10; 
+    font-size: 24px; 
+    font-family: Rubik Mono One; 
+    font-weight: 400; 
+    word-wrap: break-word"
+}
+
+.p_1{
+    color: #660F10; 
+    font-size: 20px; 
+    font-family: Rubik; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.experience, .safety, .Staff{
+    max-width: 290px; 
+    max-height: 180px; 
+    text-align: center
+}
+
+/* Third section "Flights"*/
+
+.third_section {
+    box-sizing: border-box;
+    margin: 0;
+    background-position: center center;
+    width: auto;
+}
+
+.container3 {
+    padding: 30px 55px;
+    background-color: #F9CFA3;
+}
+/*.header_h1{
+    padding: 30px 0;
+    text-align: center; 
+    color: #683F51;
+    font-size: 24px; 
+    font-family: Rubik Mono One; 
+    font-weight: 400; 
+}*/
+.elements3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: stretch; /* Растягивает блоки по высоте */
+}
+.but3 {
+    max-width: 246px;
+    min-height: 475.81px;
+    border-radius: 30px;
+    background: #DBA66E;
+    padding: 0;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Плавный переход для всех изменений */
+}
+
+.but3:hover {
+    background-color: #C4845C; /* Изменяем цвет фона при наведении */
+    color: #ffffff; /* Изменяем цвет текста при наведении */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Тень при наведении */
+    transform: translateY(-3px); /* Небольшое поднятие кнопки */
+}
+
+.but3:active {
+    transform: scale(0.98); /* Легкое уменьшение кнопки при нажатии */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Тень при нажатии */
+}
+
+.but3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    transition: all 0.3s ease; /* Плавный переход для изменений изображения */
+}
+
+.but3:hover img {
+    opacity: 0.9; /* Легкий эффект затемнения картинки */
+    filter: brightness(1.1); /* Осветление изображения */
+}
+
+.but3 h2, .but3 p {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.but3 h2 {
+    color: #660F10;
+    font-size: 20px;
+    font-family: Rubik One;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.but3 p {
+    color: #660F10;
+    font-size: 16px;
+    font-family: Rubic;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Fourth section "Team" */
+
+.fourth_section {
+    box-sizing: border-box;
+    margin: 0;
+    background-position: center center;
+    width: auto;
+}
+
+.container4 {
+    padding: 30px 55px;
+    background-color: #FFD5CB;
+}
+
+.elements4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.Person{
+    width: 242px;
+    margin: 0 60px; /* Убирает слишком маленькое расстояние между элементами */
+    padding-bottom: 50px;
+}
+.h2_4{
+    color: #660F10; 
+    font-size: 24px; 
+    font-family: Rubik One; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    padding: 20px 0;
+}
+.p1_4, .p2_4{
+    color: #660F10; 
+    font-size: 16px; 
+    font-family: Rubik; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+
+/* Fifth section "FAQ" */
+
+.fifth_section {
+    box-sizing: border-box;
+    margin: 0;
+    background-position: center center;
+    width: auto;
+}
+
+.container5 {
+    padding: 30px 55px;
+    background-color: #FBD8B3;
+}
+
+.elements5 {
+    display: grid;
+    grid-template-columns: minmax(50px 1fr) 1fr 1fr; /* Иконка, текст, изображение */
+    gap: 0 15px; /* Отступы между элементами */
+    align-items: start; /* Выровнять элементы по верхней части строки */
+    /*padding-top: 20px;*/
+}
+
+.question {
+    display: contents; /* Используем contents, чтобы 
+    элементы внутри grid-container работали по всей 
+    сетке */
+    align-items: center; /* Центрируем элементы по вертикали */
+    
+
+}
+
+/* Иконки */
+#i_1, #i_2, #i_3 {
+    grid-column: 1;
+    justify-self: center;
+}
+
+#i_1{
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+
+#i_2{
+    grid-row-start: 3;
+    grid-row-end: span 4;
+}
+
+#i_3{
+    grid-row-start: 5;
+    grid-row-end: span 6;
+}
+
+#main_img {
+    grid-column: 3; /* Картинка находится в третьей колонке */
+    grid-row: 1 / span 6; /* Картинка охватывает все строки */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px; /* Закругленные углы */
+    justify-self: center;
+}
+
+/* Заголовки и текст */
+#h2_sec5_1, #h2_sec5_2, #h2_sec5_3 {
+    grid-column: 2;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    /*padding-bottom: 5px;  Небольшой отступ снизу */
+    align-self: center; /* Вертикальное выравнивание по центру */
+    padding-left: 0; /* Прижимаем текст к левой стороне */
+    padding-top: 0;
+}
+
+#p5_1, #p5_2, #p5_3 {
+    grid-column: 2;
+    margin: 0;
+    /*padding-top: 5px;  Небольшой отступ сверху */
+}
+
+.h5_2{
+    color: #660F10; 
+    font-size: 24px; 
+    font-family: Rubik One; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    padding: 0;
+}
+
+.p_sec5{
+    color: #660F10; 
+    font-size: 24px; 
+    font-family: Rubik; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+/* Sixth section "Feedback" */
+.sixth_section {
+    box-sizing: border-box;
+    margin: 0;
+    background-position: center center;
+    width: auto;
+}
+
+.container6 {
+    padding: 30px 55px;
+    background-color: #F0C3D6;
+}
+
+.elements6 {
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.left {
+    margin: 0;
+    padding: 0;
+    flex-basis: 40%;
+}
+
+.informations, .map {
+    margin-bottom: 20px;
+}
+
+.myForm {
+    flex-basis: 50%;
+    max-width: 590px;
+}
+
+.h3_6 {
+    color: #660F10;
+    font-size: 24px;
+    font-family: Rubik One;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.p6 {
+    color: #660F10;
+    font-size: 16px;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+form {
+    box-sizing: border-box;
+    background-color: #FFC6DD;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #660F10;
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input.elem {
+    width: 100%;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    background: #F0C3D6;
+    border-radius: 15px;
+    border: none;
+}
+
+input.elem:focus {
+    background-color: #efb4cc;
+    border: none;
+    outline: none;
+}
+
+#last_button {
+    width: 100%;
+    padding: 15px 20px;
+    background: #E79ABA;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    color: #452331;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#last_button:hover {
+    background-color: #d47b96;
+}
+
+#last_button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+/* Footer */
+
+.footer {
+    box-sizing: border-box;
+    margin: 0;
+    background-position: center center;
+    width: auto;
+}
+
+.container7 {
+    padding: 30px 55px;
+    background-color: #D9C0A6;
+    display: flex;
+    justify-content: center; /
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 20px 55px;
+    text-align: center;
+}
+.elements7{
+    padding: 0;
+    margin: 0;
+}
+
+.elements7 >h3{
+    color: #660F10; font-size: 20px; 
+    font-family: Rubik One; 
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 30px 45px;
+}
+
+.elements7 >p{
+    color: #660F10; font-size: 14px; 
+    font-family: Rubik; font-weight: 500; 
+    word-wrap: break-word;
+    padding: 8px 20px;
+}
+.social_img{
+    display: inline;
+}
