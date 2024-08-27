@@ -1,0 +1,17 @@
+# netlify.toml
+
+[build]
+  # Директория, где лежат ваши HTML и CSS файлы
+  publish = "."
+
+  # Команда для сборки сайта (если не требуется, можно убрать)
+  # command = "npm run build"
+
+[build.environment]
+  # Определяем, какая версия Node.js будет использоваться (если потребуется)
+  # NODE_VERSION = "14"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
